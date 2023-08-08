@@ -8,6 +8,7 @@ from page.functions.cellproportion import *
 if 'tool' not in st.session_state:
     st.session_state['tool'] = None
 
+
 def selectTool(tool):
     st.session_state['tool'] = tool
 
